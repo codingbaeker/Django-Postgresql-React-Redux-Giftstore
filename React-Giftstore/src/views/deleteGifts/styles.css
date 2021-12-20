@@ -1,0 +1,21 @@
+.add-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.add-title{
+    font-size: 2rem;
+}
+
+.add-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    padding-bottom: 5%;
+    padding-top: 4%;
+}

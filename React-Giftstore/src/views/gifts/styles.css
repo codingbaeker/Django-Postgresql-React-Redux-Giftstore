@@ -1,0 +1,84 @@
+.gifts-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.gifts-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.gifts-title{
+    font-size: 2.5rem;
+    color: rgb(233, 136, 152);
+    font-weight: bold;
+}
+
+.gifts-description-title{
+    font-size: 1.5rem;
+}
+
+.gifts-description{
+    font-size: 1.2rem;
+    text-align: center;
+    width: 70%;
+}
+.gifts-products{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    overflow-x: auto;
+    /* width: 100%; */
+    max-width: 100%;
+}
+
+.product-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    max-width: 300px;
+    padding: 5%
+}
+
+.product-info-name{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.product-info-picture{
+    width: 200px;
+    height: 290px;
+}
+
+.custumize-options{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 100%;
+    height: 150px;
+    padding-top: 3%;
+    margin-bottom: 2%;
+}
+
+.custumize-options-links{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+
+}
+.custumize-link{
+    text-decoration: none;
+    color: red;
+    border: solid;
+    font-size: 1.5rem;
+    padding: 3%;
+
+}
+.custumize-link:hover{
+    color: black;
+}

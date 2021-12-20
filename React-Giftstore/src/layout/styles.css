@@ -1,0 +1,95 @@
+.giftstore-container{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.giftstore-header{
+    display: flex;
+    width: 100%;
+    background-color: bisque;
+    height: 100px;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+
+.giftstore-logo{
+    display: flex;
+    width:100%;
+    height: 100%;
+}
+
+.link{
+    color: grey;
+    text-decoration: none;
+}
+
+.giftstore-first-options{
+    list-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex:1;
+    font-size: 1.7rem;
+    color: grey;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.giftstore-second-options{
+    list-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex:1;
+    font-size: 1.1rem;
+    color: grey;
+}
+
+.giftstore-footer{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-color: bisque;
+    justify-content: space-around;
+    align-items: center;
+    position: end;
+    top:end;
+}
+
+.giftstore-footer-options{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-logo{
+    width: 10%;
+    margin: 5%;
+}
+
+.giftstore-footer-title{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.giftstore-footer-deco{
+    color: greenyellow;
+    padding-bottom: 15%;
+}
+
+.giftstore-content{
+    width: 100%;
+    height: 100%;
+}
+
